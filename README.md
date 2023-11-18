@@ -121,6 +121,15 @@ a2enmod  rewrite
 a2enmod  php8.1
 ```
 
+### liberando a porta 80 no firewall
+
+```bash
+sudo ufw allow 80
+sudo ufw enable
+```
+
+Caso necessite abrir mais portas, utilize o mesmo comando, substituindo a porta 80 pela desejada.
+
 ### Reinicializando o servidor Apache para integrar o PHP
 
 ```bash
