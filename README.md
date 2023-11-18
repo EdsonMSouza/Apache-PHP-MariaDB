@@ -82,7 +82,7 @@ with Zend OPcache v8.1.2-1ubuntu2.14, Copyright (c), by Zend Technologies
 
 A seguir vamos habilitar os módulos opcache (aceleração), gd (imagens), sqlite3 (banco de dados), pgsql (PostgreSQL) e mysql (MySQL).
 
-```latex
+```bash
 sudo apt-get install php-soap php-xml php-curl php-opcache php-gd php-sqlite3 php-mbstring php-pgsql php-mysql
 ```
 
@@ -309,7 +309,9 @@ Agora é só estudar e desenvolver suas aplicações!
 ## Como citar este conteúdo
 
 ```latex
-Souza, Edson Melo de. (2023, Novembre 18). Guia de Instalação: Apache + PHP + MariaDB. Available in: https://github.com/EdsonMSouza/Apache-PHP-MariaDB
+Souza, Edson Melo de. (2023, November 18).
+Guia de Instalação: Apache + PHP + MariaDB.
+Available in: https://github.com/EdsonMSouza/Apache-PHP-MariaDB
 ```
 
 Ou BibTeX para LaTeX:
