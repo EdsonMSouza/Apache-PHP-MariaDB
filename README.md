@@ -1,5 +1,11 @@
 # Guia de Instalação: Apache + PHP + MariaDB
 
+## Notas da versão
+
+Este tutorial está baseado na versão do Linux Ubuntu 22.04.3 LTS.
+
+## Introdução
+
 Bem-vindo ao repositório dedicado à instalação e configuração do ambiente Apache, PHP e MariaDB no sistema operacional __LINUX__. Este guia abrangente e detalhado foi criado para simplificar o processo de configuração dessas poderosas ferramentas, permitindo que você crie um ambiente de desenvolvimento robusto e eficiente em pouco tempo.
 
 ## Objetivo do repositório
@@ -79,7 +85,7 @@ sudo apt-get install apache2 php libapache2-mod-php
 ```bash
 sudo systemctl status apache2
 ```
-Verifique se __Active__ está como __$\color{lime}{active (running)}$__</span> na cor verde.
+Verifique se __Active__ está como __$\color{lime}{active (running)}$__ na cor verde.
 
 ### Testando a Instalação do PHP
 
@@ -155,7 +161,7 @@ sudo apt install mariadb-server mariadb-client
 sudo systemctl status mariadb
 ```
 
-* Verifique se __Active__ está como __$\color{lime}{active (running)}$__</span> na cor verde.
+* Verifique se __Active__ está como __$\color{lime}{active (running)}$__ na cor verde.
 * Se o comando não finalizar, pressione ```CTRL+C``` para sair.
 
 ### Protegendo o MariaDB
