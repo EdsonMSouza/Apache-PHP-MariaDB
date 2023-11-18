@@ -30,13 +30,17 @@ Para facilitar a instalação e configuração em servidores remotos, este guia 
 
 ### Conexão SSH
 
+O SSH, que significa "Secure Shell" (Shell Seguro), é um protocolo de rede criptografado usado para comunicação segura em uma rede não segura. Ele fornece uma maneira segura de acessar serviços de linha de comando em sistemas remotos, permitindo a autenticação e a comunicação criptografada entre dois computadores conectados pela rede.
+
+O SSH é uma ferramenta fundamental para a administração segura de sistemas remotos, e é amplamente utilizado em ambientes Linux, Unix e também está disponível para sistemas operacionais Windows.
+
 Certifique-se de ter acesso SSH ao servidor onde deseja configurar o ambiente. Use o seguinte comando para se conectar ao seu servidor a partir da sua máquina.
 
 ```bash
 ssh seu_usuario@seu_servidor
 ```
 
-Este método via SSH oferece flexibilidade e segurança, permitindo que você gerencie e configure seu ambiente de desenvolvimento ou produção de qualquer lugar do mundo. Isso permite que você execute comandos no servidor remoto como se estivesse na sua máquina.
+Se tudo ocorrer como esperado, você receberá uma mensagem de sucesso na conexão com o servidor e receberá um `prompt` para executar os próximos comandos.
 
 ### Atualização do Linux
 
