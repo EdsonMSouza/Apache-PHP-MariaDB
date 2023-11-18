@@ -61,10 +61,7 @@ sudo apt-get install apache2 php libapache2-mod-php
 ```bash
 sudo systemctl status apache2
 ```
-
-Verifique se __Active__ está como <span style="color:green">__active (running)__</span> na cor verde.
-
-$\color{green}{your-text-here}$
+Verifique se __Active__ está como __$\color{lime}{active (running)}$__</span> na cor verde.
 
 ### Testando a Instalação do PHP
 
@@ -140,7 +137,7 @@ sudo apt install mariadb-server mariadb-client
 sudo systemctl status mariadb
 ```
 
-* Verifique se __Active__ está como <span style="color:green">__active (running)__</span> na cor verde.
+* Verifique se __Active__ está como __$\color{lime}{active (running)}$__</span> na cor verde.
 * Se o comando não finalizar, pressione ```CTRL+C``` para sair.
 
 ### Protegendo o MariaDB
