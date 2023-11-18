@@ -6,6 +6,18 @@ Bem-vindo ao repositório dedicado à instalação e configuração do ambiente 
 
 O objetivo principal deste repositório é fornecer um conjunto claro de instruções para você instalar e configurar o Apache como servidor web, o PHP como linguagem de script do lado do servidor e o MariaDB como sistema de gerenciamento de banco de dados.
 
+## Sobre o MariaDB
+
+O MariaDB é um sistema de gerenciamento de banco de dados relacional (SGBDR) de código aberto, que se originou como um "fork" do MySQL. Um fork é um ramo independente de desenvolvimento de um software existente, muitas vezes criado quando há divergências ou preocupações em relação à direção futura do projeto original. O MariaDB foi criado pelo criador original do MySQL, Michael "Monty" Widenius, em resposta a preocupações sobre a aquisição do MySQL pela Oracle Corporation em 2009.
+
+No Linux, o MariaDB é frequentemente acessado através do cliente de linha de comando chamado mysql. Isso acontece porque o mysql é um cliente genérico para sistemas de gerenciamento de banco de dados MySQL e MariaDB. Ambos, MySQL e MariaDB, compartilham muita semelhança em termos de protocolo de comunicação e comandos SQL, devido às origens comuns do MariaDB como um fork do MySQL.
+
+A decisão de manter a compatibilidade com o mysql foi tomada para garantir que os usuários pudessem migrar facilmente de um sistema para o outro, sem ter que fazer muitas alterações em seus scripts ou comandos existentes. Dessa forma, os usuários que estão acostumados a trabalhar com o MySQL podem continuar a utilizar o mesmo cliente (mysql) ao migrar para o MariaDB.
+
+É importante notar que, embora o mysql seja frequentemente utilizado para interagir com o MariaDB, existem também clientes específicos do MariaDB, como o mariadb-client, que oferecem funcionalidades adicionais e podem ser mais apropriados em certos contextos. No entanto, devido à compatibilidade, muitas vezes você verá instruções e documentação que referenciam o uso do cliente mysql ao interagir com bancos de dados MariaDB no Linux.
+
+Neste tutorial é utilizado `mysql` como instrução de comando para manipulação dos bancos de dados.
+
 ## Como usar este guia
 
 Se você está começando agora, siga as instruções passo a passo para configurar seu ambiente de desenvolvimento local.
@@ -152,7 +164,7 @@ Na próxima pergunta, digite __Y__ para definir uma senha de __root__ (*__manten
 
 Para as próximas perguntas, você pode pressionar ```Enter``` para cada um dos itens.
 
-### Acessando o MySQL via CLI (*Command Line*)
+### Acessando o MariaDB via CLI (*Command Line*)
 
 Digite o seguinte comando:
 
