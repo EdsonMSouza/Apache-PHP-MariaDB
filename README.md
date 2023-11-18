@@ -1,6 +1,6 @@
 # Guia de Instalação: Apache + PHP + MariaDB
 
-Bem-vindo ao repositório dedicado à instalação e configuração do ambiente Apache, PHP e MySQL no sistema operacional __LINUX__. Este guia abrangente e detalhado foi criado para simplificar o processo de configuração dessas poderosas ferramentas, permitindo que você crie um ambiente de desenvolvimento robusto e eficiente em pouco tempo.
+Bem-vindo ao repositório dedicado à instalação e configuração do ambiente Apache, PHP e MariaDB no sistema operacional __LINUX__. Este guia abrangente e detalhado foi criado para simplificar o processo de configuração dessas poderosas ferramentas, permitindo que você crie um ambiente de desenvolvimento robusto e eficiente em pouco tempo.
 
 ## Objetivo do repositório
 
