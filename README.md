@@ -309,8 +309,7 @@ Agora é só estudar e desenvolver suas aplicações!
 ## Como citar este conteúdo
 
 ```latex
-Souza, Edson Melo de. (2023, November 18).
-Guia de Instalação: Apache + PHP + MariaDB.
+Souza, Edson Melo de. (2023, November 18). Guia de Instalação: Apache + PHP + MariaDB.
 Available in: https://github.com/EdsonMSouza/Apache-PHP-MariaDB
 ```
 
