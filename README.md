@@ -64,6 +64,8 @@ sudo systemctl status apache2
 
 Verifique se __Active__ está como <span style="color:green">__active (running)__</span> na cor verde.
 
+$\color{green}{your-text-here}$
+
 ### Testando a Instalação do PHP
 
 ```bash
