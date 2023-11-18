@@ -121,7 +121,7 @@ a2enmod  rewrite
 a2enmod  php8.1
 ```
 
-### liberando a porta 80 no firewall
+### Liberando a porta 80 no firewall
 
 ```bash
 sudo ufw allow 80
