@@ -6,7 +6,7 @@ Bem-vindo ao repositório dedicado à instalação e configuração do ambiente 
 
 O objetivo principal deste repositório é fornecer um conjunto claro de instruções para você instalar e configurar o Apache como servidor web, o PHP como linguagem de script do lado do servidor e o MariaDB como sistema de gerenciamento de banco de dados.
 
-## Como usar este guia e contribuições
+## Como usar este guia
 
 Se você está começando agora, siga as instruções passo a passo para configurar seu ambiente de desenvolvimento local.
 
