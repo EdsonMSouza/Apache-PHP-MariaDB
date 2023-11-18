@@ -34,7 +34,9 @@ O SSH, que significa "Secure Shell" (Shell Seguro), é um protocolo de rede crip
 
 O SSH é uma ferramenta fundamental para a administração segura de sistemas remotos, e é amplamente utilizado em ambientes Linux, Unix e também está disponível para sistemas operacionais Windows.
 
-Certifique-se de ter acesso SSH ao servidor onde deseja configurar o ambiente. Use o seguinte comando para se conectar ao seu servidor a partir da sua máquina.
+Certifique-se de ter acesso SSH ao servidor onde deseja configurar o ambiente.
+
+Use o seguinte comando para se conectar ao seu servidor a partir da sua máquina local.
 
 ```bash
 ssh seu_usuario@seu_servidor
